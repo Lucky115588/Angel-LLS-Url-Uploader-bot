@@ -29,10 +29,10 @@ if __name__ == "__main__" :
     )
     app = pyrogram.Client(
         "BewafaAngelPriya",
-        bot_token=Config.TG_BOT_TOKEN,
-        api_id=Config.APP_ID,
-        api_hash=Config.API_HASH,
+        bot_token=Config.8720530225:AAFfBXw7LQeoDZKS7rQqFRevQh7boxV5wfQ,
+        api_id=Config.27339028,
+        api_hash=Config.c75a5ed5a4377ce65c947360d29ede05,
         plugins=plugins
     )
-    Config.AUTH_USERS.add(1484670284)
+    Config.AUTH_USERS.add(7025126355)
     app.run()
